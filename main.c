@@ -98,7 +98,7 @@ void main()
 void check(int a[10][10],int x,int y,int data)
 {
 	int i;
-	for(i=1;i<6;i+=2) //°¡·ÎÃ³¸®
+	for(i=1;i<6;i+=2) //ê°€ë¡œì²˜ë¦¬
 	{
 		if((a[3][i]==data)&&(a[6][i]==data)&&(a[9][i]==data)) 
 		{
@@ -113,9 +113,9 @@ void check(int a[10][10],int x,int y,int data)
 				printf("X Win!!");
 			}
 		}
-	} // °¡·ÎÃ³¸®³¡
+	} // ê°€ë¡œì²˜ë¦¬ë
 
-	for(i=3;i<10;i+=3) //¼¼·ÎÃ³¸®
+	for(i=3;i<10;i+=3) //ì„¸ë¡œì²˜ë¦¬
 	{
 		if((a[i][1]==data)&&(a[i][3]==data)&&(a[i][5]==data))
 		{
@@ -130,7 +130,7 @@ void check(int a[10][10],int x,int y,int data)
 				printf("X Win!!");
 			}
 		}
-	}//¼¼·ÎÃ³¸®³¡
+	}//ì„¸ë¡œì²˜ë¦¬ë
 	if((a[3][1]==data)&&(a[6][3]==data)&&(a[9][5]==data))
 	{
 		if(data==5)
